@@ -23,7 +23,7 @@ function send_thank_you_email_with_coupon_on_order_complete($order_id) {
     // Add red color to the coupon code
     $message .= '<p><strong><span style="color: red;">Coupon Code: ' . $coupon_code . '</span></strong></p>';
     $message .= '<p>The coupon is valid for 60 days. Don\'t miss out!</p>';
-    $message .= '<p>Best regards,<br>Kriti life</p>';
+    $message .= '<p>Best regards,<br> Your website name </p>';
     $message .= '</body></html>';
 // Set email headers to send HTML email
     $headers = array('Content-Type: text/html; charset=UTF-8');
